@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(netflixwalpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8px;
+}
+nav{
+    display: flex; /*netflix and  english button in two sides..*/
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 50px;
+}
+.logo{
+    width: 130px;
+    cursor: pointer;
+    backface-visibility: hidden;
+}
+nav button{     /* sign in button modification */
+    border: 0;
+    outline: 0;
+    background-color: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+#lang{
+    padding-left: 61%;
+}
+.centre{        /* centre content modification */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centre h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.centre h3{
+    font-weight: 400;
+    margin-bottom: 20px;        /* give space downwards */
+}
+.email_signup{
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.email_signup button{
+    background-color: red;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    outline: 0;
+    cursor: pointer;
+    padding: 15px 30px; /* sign button width */
+}
+.email_signup input{
+    margin-left: 23px;
+    flex: 1;
+    border: 0;
+    outline: 0;
+}
+.lang{
+    color: white;
+    display: flex;
+    padding: 0 0;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.heading{
+    margin-left: 570px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: red;
+}
